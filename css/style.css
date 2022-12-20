@@ -53,6 +53,7 @@ header {
 
 	padding: 40px 10px;
 	color: var(--text);
+	margin-bottom: 30px;
 
 }
 
@@ -66,7 +67,7 @@ header {
 form {
 	display: flex;
 	flex-direction: column;
-	gap:  30px;
+	gap:  40px;
 	position: relative;
 }
 
@@ -132,7 +133,7 @@ input[type="submit"], .modal button {
 }
 
 .modal button {
-	background-color:  var(--accent);
+	background-color:  var(--background);
 	padding: 15px 20px;
 	margin-top: 15px;
 	border: none;
