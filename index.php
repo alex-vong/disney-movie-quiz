@@ -8,7 +8,7 @@
 
 	<header>
 		<inner-column>
-			<h1 class="top-level-heading">How Much Random And Basic Disney Movies 101 Knowledge Do You Have?</h1>
+			<h1 class="top-level-heading">Basic CSS Quiz</h1>
 		</inner-column>
 	</header>
 
@@ -20,7 +20,7 @@
 					<inner-column>
 						<div class="modal-text">
 							<h2 class="second-level-heading heading-pass"></h2>
-							<h3 class="fourth-level-heading">Congrats! You Know Your Disney Movies!</h3>
+							<h3 class="fourth-level-heading">Congrats! You Know Your Cascading Style Sheets!</h3>
 							<button class="pass-btn">Take the Quiz Again</button>
 						</div>
 						</inner-column>
@@ -29,7 +29,7 @@
 				<div class="mp-container">
 					<inner-column>
 						<picture>
-							<img src="images/ronan_approve.png" alt="">
+							<img src="images/brett-rambo.jpeg" alt="">
 						</picture>
 					</inner-column>
 				</div>
@@ -46,7 +46,7 @@
 					<inner-column>
 						<div class="modal-text">
 							<h2 class="second-level-heading heading-fail"></h2>
-							<h3 class="fourth-level-heading">Time to blow the pixie dust off that old VHS player and rewatch some of these classical films!</h3>
+							<h3 class="fourth-level-heading">You Didn't Do So Well, But Don't Let That Stop You! CSS Is Tough So Keep Learning! </h3>
 							<button class="fail-btn">Take the Quiz Again</button>
 						</div>
 						</inner-column>
@@ -55,7 +55,7 @@
 				<div class="mp-container">
 					<inner-column>
 						<picture>
-							<img src="images/ronan_mad.png" alt="">
+							<img src="images/michael-cringe.png" alt="">
 						</picture>
 					</inner-column>
 				</div>
@@ -72,7 +72,8 @@
 				<div class="question-container">
 
 					<inner-column>
-						<h1 class="fourth-level-heading"><?=$input['question']?></h1>
+				
+						<h2 class="fourth-level-heading"><?=$input['question']?></h2>
 						
 						<div class="form-check">
 							<input type="radio" 
